@@ -1,20 +1,57 @@
-.container {
-  width: 100%;
-  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
-  padding: 0 15px;
-  margin: 0 auto;
+h1 {
+  
+  color: #2A4A5C;
 }
-.logo {
-  float: left;
+
+h2 {
+  color: #2A4A5C;
 }
-nav {
-  float: right;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav li {
-  display: inline-block; /*один из способов разместить элементы в строку*/
-}
+.fbbut1{
+  padding:2px; 
+  border-radius:3px;
+  border-width: 0px; 
+  
+  background:#255A9B; 
+  width: 200px; 
+  height: 40px;
+  display: inline-block; 
+  text-align: center;
+  }
+
+  .linked{
+    padding:2px; 
+    border-radius:3px;
+    border-width: 0px;
+    margin-left: 40px; 
+    
+    background:#0076B6 ; 
+    width: 200px; 
+    height: 40px;
+    display: inline-block; 
+    text-align: center;
+    }
+  
+    .hr-line {
+      margin: 20px 0;
+      width: 180px;
+      padding: 10;
+      height: 0;
+      border: none;
+      border-top: 1px solid #c1bebe;
+    }
+    table {
+      
+      /*border: 4px double #333;  Рамка вокруг таблицы */ 
+      border-collapse: separate; /* Способ отображения границы */ 
+      width: 400px; /* Ширина таблицы */ 
+      border-spacing: 15px 10px; /* Расстояние между ячейками */ 
+     }
+     td {
+      text-align: center;
+    
+            
+     }
+     input{
+      border-radius: 1px;
+      border: 1px solid #c1bebe;
+     }
